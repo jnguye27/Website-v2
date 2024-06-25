@@ -1,0 +1,94 @@
+/* This CSS file allows my html webpages to have a common design */
+
+.title {
+  text-shadow: 2px 2px white;
+  display: inline-block;
+  vertical-align: top;
+  color: #50352B
+}
+.navi {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #50352B;
+  height: 25px;
+  padding: 10px;
+}
+.select {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: -2%;
+  text-decoration: underline;
+}
+.homemenu {
+  font-size: 20px;
+  background-color: #50352B;
+  border-radius: 5px;
+  height: 185px;
+  width: 575px;
+  margin-left: 34.5%;
+}
+.menu {
+  font-size: 20px;
+  float: left;
+  margin-right:3%;
+  background-color: #50352B;
+  border-radius: 5px;
+  height: 175px;
+  width: 305px;
+}
+.update {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #50352B;
+  border-radius: 5px;
+  margin-top: -2%;
+  margin-bottom: 2.6%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 10px;
+  text-align: center;
+}
+.footer {
+  background-color: #50352B;
+  border-radius: 5px;
+  height: 245px;
+  display: flex;
+}
+.back {
+  font-size: 22px;
+  border-radius: 5px;
+  background-color: #50352B;
+  padding: 10px;
+}
+.return {
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #50352B;
+  padding: 10px;
+  text-decoration: none;
+}
+h1 {
+  margin-left: 25px;
+  font-size: 85px;
+}
+h2 {color: #50352B;}
+p, li, ol, figcaption {
+  color: #50352B;
+  font-weight: normal;
+  font-size: 20px;
+}
+img {border-radius: 5px;}
+body {
+  margin: 25px;
+  background-color: #E7D6D0;
+}
+a {text-decoration: none;}
+a:link, a:visited, a:active {color: white;}
+a:hover {color: #F3E396;}

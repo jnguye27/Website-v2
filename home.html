@@ -1,0 +1,149 @@
+<!DOCTYPE html> <!-- makes a document html -->
+  <html lang=”en”> <!-- sets language to english -->
+
+    <!-- HEAD TAG: contains the character set, title, and CSS of the site -->
+    <head>
+      <meta charset=”utf-8” /> <!-- indicates the character set, some special characters will be visible -->
+      <title>Hampter Rescue</title> <!-- displays a title in the tab -->
+
+      <!-- EXTERNAL CSS -->
+      <link rel="stylesheet" type="text/css" href="webstyle.css">
+    </head>
+
+    <!-- BODY TAG: contains all the text, main menu, and images (basically all the html) -->
+    <!-- ** Note: There is inline CSS because I feel like it's unnecessary to make a new class for such a small change -->
+    <body>
+      <!-- Inserts a clickable image of the logo and the name of the website -->
+      <a href="home.html"><img style="margin-left:25%;" src="Logo.png" width="200" height="200" alt="Hampster Rescue's Logo"></a>
+      <h1 class="title" id="title">Hampter Rescue</h1>
+
+      <!-- Navigation for specific site information, 2 leads to the other required pages and the rest leads to the deadlink page -->
+      <!-- ul = unordered list -->
+      <ul class="navi" style="margin-top: -0.05%; text-align: center;">
+        <a style="margin-left: 1%; margin-right: 1%;" href="404.html">Adopt</a>
+        <a style="margin-left: 1%; margin-right: 1%;" href="404.html">Volunteer</a>
+        <a style="margin-left: 1%; margin-right: 1%;" href="404.html">Donate</a>
+        <a style="margin-left: 1%; margin-right: 1%;" href="one.html">Pet Shop</a>
+        <a style="margin-left: 1%; margin-right: 1%;" href="404.html">News & Events</a>
+        <a style="margin-left: 1%; margin-right: 1%;"href="two.html">FAQ</a>
+      </ul>
+
+      <!-- Custom header/banner  -->
+      <img src="header1.png" width="1853" height="300" alt="Custom Header/Banner for the Homepage">
+
+      <!-- Homepage menu -->
+      <div class="homemenu" style="color: white; text-align: center; margin-top: 2%;">
+        <ul style="margin-left: -7%;">
+          <br><b>Homepage Menu</b>
+          <br><br><a href="#s1">About Us</a>
+          <br><a href="#s2">Contact Information</a>
+          <br><a href="#s3">Animal Cruelty</a>
+          <br><a href="#s4">Recently Adopted</a>
+        </ul>
+      </div>
+
+      <!-- A line that seperates information/images from the menu -->
+      <hr color="#50352B" width="50%" style="margin-bottom: 1%; margin-top: 2%;">
+
+      <!-- About us -->
+      <h2 id="s1" style="text-align: center;">About Us</h2>
+      <img style="margin-left: 10%;" src="Hamsterown.jpg" width="600" height="450" alt="Image of the Site Owner's Hamster">
+      <p style="display: inline-block; vertical-align: top; margin-left: 2%;">
+        <b>A hamster is the answer!</b>
+        <br><br>We've noticed that bigger pets get all the attention and so we'd like to focus on the little ones.
+        <br><br>For 6 years now, we've been a growing Canadian business that's been passionate about hamsters.
+        <br>Every day we learn more about them and we'd like to share our knowledge with those who are interested.
+        <br>We try our best to raise and rescue as many furry friends as we can, helping them find families to go back to.
+        <br><br>Just because these rascals are small,<br>doesn't mean that they don't have big hearts to love!
+        <br><br>Join us on our journey at Hampter Rescue!
+        <br><br><b>Edited by:</b> Jessica Nguyen
+        <br><br><b>The image to the left is our little mascot,<br>Kiwi!</b>
+      </p>
+
+      <!-- Contact Information -->
+      <!-- Because of the inline-block, I had to use <br> to create newlines while staying in that section -->
+      <h2 id="s2" style="text-align: center; margin-top: 2%;  margin-bottom: -2.3%;">Contact Information</h2>
+      <p style="text-align: center;">
+        <br><br><b>Email:</b> <a class="navi" href="mailto:jnguye27@uoguelph.ca">jnguye27@uoguelph.ca</a>
+        <br><br><b>Phone Number:</b> (519) - 824 - 4120
+        <br><br><b>Address:</b> 50 Stone Rd E, Guelph, ON N1G 2W1
+        <br><br><b>Hours of Operation</b>
+        <br>Monday:       8:30 a.m. - 5:00 p.m.
+        <br>Tuesday:      8:30 a.m. - 5:00 p.m.
+        <br>Wednesday:    8:30 a.m. - 5:00 p.m.
+        <br>Thursday:     8:30 a.m. - 5:00 p.m.
+        <br>Friday:       8:30 a.m. - 5:00 p.m.
+        <br>Saturday:     Closed
+        <br>Sunday:       Closed
+      </p>
+
+      <!-- Animal Cruelty -->
+      <h2 id="s3" style="text-align: center; margin-top: 4.5vh;">Animal Cruelty</h2>
+      <p style="text-align: center;">Think that someone you know is abusing or neglecting their pet? Want to report the issue?<br>Here at Hampter Rescue we believe that every life, big or small, deserves a loving home.</p>
+      <p style="text-align: center;">To report any sort of animal cruelty, please call: <b>1-833-9-ANIMAL</b>.</p>
+      <p style="text-align: center;">Here are a list of websites that can help inform you on the cause:</p>
+      <ul style="font-size: 20px; margin-left: 44.5%; margin-bottom: 3%;">
+        <li><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.humanesociety.org/all-our-fights/fighting-animal-cruelty-and-neglect">Humane Society</a></li>
+        <li><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.aspca.org/">ASPCA</a></li>
+        <li><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://ontariospca.ca/who-we-are/contact-us/">Ontario SPCA</a></li>
+        <li><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://wildlife-rescue.org/services/advocacy/animal-abuse/">Wildlife Rescue</a></li>
+        <li><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.peta.org/">Peta</a></li>
+      </ul>
+
+      <!-- Recently Adopted Hamsters: name of each hamster, their age, and a fact about them! -->
+      <h2 id="s4" style="text-align: center;">Recently Adopted</h2>
+      <p style="text-align: center;">Every hamster is destined to have a family!<br>Here are a few furry friends that we were able to help find homes for this month. </p>
+      <img style="display: block; margin-left: auto; margin-right: auto;" src="hamsters.png" width="1500" height="750" alt="Images of Recently Adopted Hamsters">
+
+      <!-- Shows the user when the page was last updated -->
+      <p class="update">Page last updated on July 24, 2022</p>
+
+      <!-- Footer Information: contains contact info, navigation links, licensing/partnerships -->
+      <!-- I divide them into sections using <div> and put them beside eachother -->
+      <div class="footer" >
+        <div style="margin-top: 1%; margin-left: 2%;">
+          <a href="home.html"><img style="margin-left:25%;" src="Logo2.png" width="200" height="200" alt="Hampster Rescue's Logo"></a>
+        </div>
+        <div style="margin-top: -1%; margin-left: 10%; color: white; font-size: 20px;">
+          <br><br><b>Take Action</b>
+          <hr color="white" width= "100px" style="margin-left: 0%;">
+          <br><a href="404.html">Adopt</a>
+          <br><br><a href="404.html">Volunteer</a>
+          <br><br><a href="404.html">Donate</a>
+        </div>
+        <div style="margin-top: -1%; margin-left: 10%; color: white; font-size: 20px;">
+          <br><br><b>Resources</b>
+          <hr color="white" width= "100px" style="margin-left: 0%;">
+          <br><a href="one.html">Pet Shop</a>
+          <br><br><a href="404.html">News & Events</a>
+          <br><br><a href="two.html">FAQ</a>
+        </div>
+        <div style="margin-top: 0.1%; margin-left: 10%; color: white; font-size: 20px;">
+          <br><b>Contact Information</b>
+          <hr color="white" width="100px" style="margin-left: 0%;">
+          <br><b>Email:</b> <a href="mailto:jnguye27@uoguelph.ca">jnguye27@uoguelph.ca</a>
+          <br><br><b>Phone Number:</b> (519) - 824 - 4120
+          <br><br><b>Address:</b> 50 Stone Rd E, Guelph, ON N1G 2W1
+        </div>
+        <div style="margin-top: -1.3%; margin-left: 10%; color: white; font-size: 20px;">
+          <br><br><b>Other</b>
+          <hr color="white" width= "100px" style="margin-left: 0%;">
+          <br><a href="404.html">Partnerships</a>
+          <br><br><a href="404.html">Terms of Use</a>
+          <br><br><a href="404.html">Privacy Policy</a>
+        </div>
+      </div>
+
+      <p style="text-align: center;">2022 Copyright: HampterRescue.com</p>
+
+      <!-- A line that seperates information/images -->
+      <hr color="#50352B" width="50%" style="margin-bottom: 1%; margin-top: 1%;">
+
+      <!-- Allows the user to go to the top of the page -->
+      <div style="text-align: center;">
+        <a class="back" href="#title">Go Back to the Top</a>
+      </div>
+    </body>
+  </html>
+
+<!-- Other ideas I had (couldn't do because I didn't know how): Search bar, Newsletter subscription, note to self: height:__; affects shifts -->

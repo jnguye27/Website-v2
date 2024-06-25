@@ -1,0 +1,263 @@
+<!DOCTYPE html> <!-- makes a document html -->
+  <html lang=”en”> <!-- sets language to english -->
+
+    <!-- HEAD TAG: contains the character set, title, and CSS of the site -->
+    <head>
+      <meta charset=”utf-8” /> <!-- indicates the character set, some special characters will be visible -->
+      <title>Hampter Rescue</title> <!-- displays a title in the tab -->
+
+      <!-- EXTERNAL CSS -->
+      <link rel="stylesheet" type="text/css" href="webstyle.css">
+    </head>
+
+    <!-- BODY TAG: contains all the text, main menu, and images (basically all the html) -->
+    <!-- ** Note: There is inline CSS because I feel like it's unnecessary to make a new class for such a small change -->
+    <body>
+      <!-- Inserts a clickable image of the logo and the name of the website -->
+      <a href="home.html"><img style="margin-left:25%;" src="Logo.png" width="200" height="200" alt="Hampster Rescue's Logo"></a>
+      <h1 class="title" id="title">Hampter Rescue</h1>
+
+      <!-- Navigation for specific site information, 2 leads to the other required pages and the rest leads to the deadlink page -->
+      <!-- ul = unordered list -->
+      <ul class="navi" style="margin-top: -0.05%; text-align: center;">
+        <a style="margin-left: 1%; margin-right: 1%;" href="404.html">Adopt</a>
+        <a style="margin-left: 1%; margin-right: 1%;" href="404.html">Volunteer</a>
+        <a style="margin-left: 1%; margin-right: 1%;" href="404.html">Donate</a>
+        <p class="select">Pet Shop</p>
+        <a style="margin-left: 1%; margin-right: 1%;" href="404.html">News & Events</a>
+        <a style="margin-left: 1%; margin-right: 1%;"href="two.html">FAQ</a>
+      </ul>
+
+      <!-- Custom header/banner  -->
+      <img src="header2.png" width="1853" height="300" alt="Custom Header/Banner for Pet Shop">
+
+      <!-- Allows navigation menu to be on the left side -->
+      <div class="menu" style="margin-top: 1%; margin-bottom: 500vh; height: 230px;">
+        <ul>
+          <!-- Allows the user to easily return to the homepage -->
+          <div style="margin-bottom: 10%; font-weight: bold;"><a href="home.html">Return to Homepage</a></div>
+          <!-- Pet Shop navigation menu -->
+          <a href="#s1">Food</a>
+          <br><a href="#s2">Treats</a>
+          <br><a href="#s3">Toys</a>
+          <br><a href="#s4">Grooming</a>
+          <br><a href="#s5">Housing</a>
+          <br><a href="#s6">References</a>
+        </ul>
+      </div>
+
+      <p style="margin-bottom: 5vh;">
+        Here at Hampter Rescue, we know that you'll want only the best for your pets. This is why we've done all of the hard work of gathering information for you, from using reliable sources to researching on our own, we want to help you and your pet's needs. Don't be afraid to contact us on our homepage if you need some personal guidance!
+        <br><br>* Always remember to price match items on different websites. Some sites are  in USD currency as well, like www.chewy.com.
+        <br>* Prices for these items may have changed over time, reach out to us and we'll gladly help you find some alternative options.
+      </p>
+
+      <!-- Food Section -->
+      <h2 id="s1" style="margin-top: 1.5%;">Food</h2>
+      <p style="margin-bottom: 5vh;">
+        Hamsters are nocturnal animals (asleep during the day and awake at night), therefore you should feed them 1-2 tablespoons of food per night.
+        They're also omnivores, which means that they can eat a small mix of plants (vegetables, herbs, & seeds) and insects (dry/alive crickets & mealworms) for their diet (PetSmart, n.d.).
+        Though, if you're on a budget, your hamster(s) could also just feed on pelleted foods and vegetables alone.
+        It's important to note that after 4 hours of feeding, the bowl should be removed from the cage, or else your furry friend will begin stashing their food within their cheeks or bedding for "safety" (PetSmart, n.d.). This can cause the food to break down and rot in the cage without you even noticing.
+        <br><br>As for the recommended meals, PetSmart says that you should give your hamster(s):
+        <br>80% - Pelleted Foods that are at least 15-20% in protein
+        <br>15% - Vegetables
+        <br>5% - Treats
+        <br>And a separate bottle and/or bowl of water that should be clean and available at all times.
+        <br>Do not combine foods and treats together, your hamster will become picky and leave the high-fiber foods for the sugary treats.
+
+        <!-- Provides a figure: a Food image, caption reference, and side links to items that the user can buy for this section -->
+        <figure>
+          <img src="Food.jpg" width="615" height="420" alt="Hamster Eating Vegetables">
+          <div style="display: inline-block; vertical-align: top; margin-left: 2%;">
+            <p style=" margin-top: 13%;">
+              <br>If you're not gonna give your hamster(s) organic foods to eat, buy processed foods instead.
+              <br>Some top food brands that we'll recommend for your hamster(s) are:
+              <li style="margin-top: -1%; margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.chewy.com/higgins-sunburst-gourmet-blend-gerbil/dp/166389?utm_source=partnerize&utm_medium=affiliates&utm_campaign=1011l93523&utm_content=1011l30087&clickref=1100lw358J4a&utm_term=1100lw358J4a">Higgins Sunburst Gourmet Blend Gerbil & Hamster Food</a> ($8.29)</li>
+              <li style="margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.chewy.com/kaytee-forti-diet-pro-health-gerbil/dp/123099?utm_source=partnerize&utm_medium=affiliates&utm_campaign=1011l93523&utm_content=1011l30087&clickref=1101lw3o6Bag&utm_term=1101lw3o6Bag">Kaytee Forti-Diet Pro Health Gerbil & Hamster Food</a> ($6.60)</li>
+              <li style="margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.chewy.com/oxbow-garden-select-gerbil-hamster/dp/145153?utm_source=partnerize&utm_medium=affiliates&utm_campaign=1011l93523&utm_content=1011l30087&clickref=1011lw3Q44LG&utm_term=1011lw3Q44LG">Oxbow Garden Select Gerbil & Hamster Food</a> ($6.99)</li>
+            </p>
+          </div>
+          <figcaption style="margin-right: 50%; margin-bottom: 5vh;">
+            <em>
+              <h>Buck, A. (2022, January 2). Hamster Lifespan: How Long Do Hamsters Live? https://a-z-animals.com/blog/how-long-do-hamsters-live/</h>
+            </em>
+          </figcaption>
+        </figure>
+      </p>
+
+      <!-- Treats Section -->
+      <h2 id="s2">Treats</h2>
+      <p style="margin-bottom: 5vh;">
+        Treats can be given to your hamster(s) in small portions once or twice a week.
+        <br>Treats can be defined as fruits, grass, and/or hay. They don't have to be packed with sugar to be considered a "treat".
+        <br>Do NOT feed your hamster(s) citrus fruits such as oranges, lemons, or grapefruits because they're too high in acidity (PDSA, n.d.).
+        <br>Consumption of citrus fruits can lead to dental and digestive issues like diarrhea.
+
+        <!-- Provides a figure: a Treats image, caption reference, and side links to items that the user can buy for this section -->
+        <figure>
+          <img src="Treat.jpg" width="615" height="420" alt="Hamster About to Eat Strawberries">
+          <div style="display: inline-block; vertical-align: top; margin-left: 2%;">
+            <p style=" margin-top: 13%;">
+              <br>If you're not gonna give your hamster(s) organic fruits to eat, buy processed treats instead.
+              <br>Some top treat brands that we'll recommend for your hamster(s) are:
+              <li style="margin-top: -1%; margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.chewy.com/ecotrition-yogies-fruit-flavor/dp/137640">Fruit Flavored eCOTRITION Yogies for Hamsters/Gerbils/Rats</a> ($4.19)</li>
+              <li style="margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.chewy.com/vitakraft-crunch-sticks-peanut-honey/dp/161200">Vitakraft Hamster Whole Grains and Honey Treat Sticks Glazed with Yogurt</a> ($4.86)</li>
+              <li style="margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.chewy.com/ware-critter-pops-small-animal-fun/dp/281036">Ware Manufacturing Rice Pops Small Pet Fun Chew Treat</a> ($12 - $18)</li>
+            </p>
+          </div>
+          <figcaption style="margin-right: 50%; margin-bottom: 5vh;">
+            <em>
+              <h>Kennedy, A. (2022, May 14). Can Hamsters Eat Strawberries? https://wereallaboutpets.com/can-hamsters-eat-strawberries</h>
+            </em>
+          </figcaption>
+        </figure>
+      </p>
+
+      <!-- Toys Section -->
+      <h2 id="s3">Toys</h2>
+      <p style="margin-bottom: 5vh;">
+        Like every pet, hamsters also love to play. What else will they do in their cage all day? They need to get rid of their energy somehow and that's usually through their toys. Here are a few things to carefully consider when buying toys for your hamster(s):
+        <li style="margin-top: -2%;"> Does the toy meet my hamster's needs, giving them physical or mental stimulation?</li>
+        <li> Is the toy low or high in quality? Will the toy last long? Is it eco-friendly and non-toxic?</li>
+        <li> Is it easy to clean?</li>
+        <li> Do I already have a similar toy? Will this new toy replace the old one?</li>
+        <li style="margin-bottom: -0.5%;"> Do they have too many toys within their cage already?</li>
+
+        <p>
+          * Reminder to think of quality over quantity, it's best to have a few toys that are higher in quality so that your hamster(s) can have space to play in.
+          <br><br><b>Types of Hamster Toys</b>
+          <br><br>Hamster Wheel: This is the most common toy for hamsters, sometimes they come as an addition to the cage itself. A plastic and silent wheel is best since they'll be awake at night using it. Your hamster needs a wheel that's the right size for their body, they shouldn't be bending on the wheel. A hamster on the larger side will require a wheel that's a minimum of 8 inches, while smaller hamsters should be around 5.5 inches (Griffiths, 2022).
+          <br><br>Chew Toys: Your hamster(s) natural instinct is to gnaw on stuff. If you don't give your hamster anything to gnaw on, they might try to gnaw on you, your furniture, or the bars to their cage. Some budget alternatives for hamster toys can be household cardboard (from boxes to toilet paper) or wood, which should be untreated softwood that was baked and washed for your hamster's safety (PDSA, n.d.). Always make sure that the chew toy is sanitary and non-toxic since your hamster(s) might ingest bits of it.
+          <br><br>Hamster Balls: In theory, these devices are great for exercise, but in reality, they're not the best idea. Although hamsters like to explore, they feel stressed when they're put into cramped areas. It's better to just expand your cage and allow them to explore a bigger (and safer) space (Griffiths, 2022). If you decide to let your hamster travel outside of their cage in a hamster ball, heavily supervise and fortify the area to be hamster-proof because a drop from a few flights of stairs, for example, can easily give them a serious concussion.
+          <br><br>Climbing Toys: Of course hamsters love to climb, they're curious beings. The problem is that hamsters have poor eyesight so tunnels, tubes, and bendy bridges will be good choices while climbing ladders won't be (Griffiths, 2022).
+          <br><br>Digging Toys: Hamsters love to play hide ' n ' seek. Try to provide them with a deep layer of sawdust or potting compost at the bottom of their cage (Griffiths, 2022). A digging tower that's made out of wood is also a good option, it's a specific area for hamsters to burrow (Griffiths, 2022).
+        </p>
+
+        <!-- Provides a figure: a Toys image, caption reference, and side links to items that the user can buy for this section -->
+        <figure>
+          <img src="Wheel.jpg" width="615" height="420" alt="Hamster on a Wheel">
+          <div style="display: inline-block; vertical-align: top; margin-left: 2%;">
+            <p style=" margin-top: 13%;">
+              <br>Some top toy brands that we'll recommend for your hamster(s) are:
+              <li style="margin-top: -0.5%; margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.amazon.ca/dp/B08FC8K22Z?tag=georiot-ca-default-20&th=1&ascsubtag=petsradar-ca-5083064278288299000-20&geniuslink=true">Niteangel Super-Silent Hamster Exercise Wheel</a> ($57.54)</li>
+              <li style="margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.amazon.ca/Living-World-Nibblers-Corn-Carrot/dp/B005KRQWIW/ref=sr_1_1?ascsubtag=petsradar-ca-2528971880942326300-20&geniuslink=true&keywords=Happy+Pet+fruit+nibblers&qid=1659602721&rdc=1&sr=8-1">Living World Nibblers Corn Husk Carrot</a> ($3.11)</li>
+              <li style="margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.amazon.ca/Super-7-Inch-Run-About-Ball-Clear/dp/B0002AS8PM/ref=sr_1_14?crid=3L8CRVBSNA9XI&keywords=Hamster+ball&qid=1659604815&sprefix=hamster+ball%2Caps%2C103&sr=8-14">KAYTEE's Clear Super Pet 7-Inch Run-About Ball</a> ($17.05)</li>
+              <li style="margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.amazon.ca/Niteangel-Small-Pet-Tunnel-inches/dp/B07P6V8PJQ/ref=sr_1_5?ascsubtag=petsradar-ca-1123471304043064200-20&geniuslink=true&keywords=trixie%2Blarge%2Bwooden%2Bdigging%2Btower%2Bfor%2Bpet%2Bhamster%2B25%2B24%2B20%2Bcm&qid=1659602695&sr=8-5&th=1">Niteangel Small Pet Fun Tunnel</a> ($18 - $20)</li>
+              <li style="margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.amazon.ca/Living-World-Aspen-Shavings-1200/dp/B005JENG4O/ref=asc_df_B005JENG4O/?tag=googleshopc0c-20&linkCode=df0&hvadid=292953562927&hvpos=&hvnetw=g&hvrand=995477027744688109&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001021&hvtargid=pla-307909211199&th=1">Living World Aspen Wood Shavings</a> ($8.33)</li>
+            </p>
+          </div>
+          <figcaption style="margin-right: 50%; margin-bottom: 5vh;">
+            <em>
+              <h>EARTH TOUCH NEWS (2014, May 22). Frogs and slugs prove wild animals like hamster wheels too. https://www.earthtouchnews.com/natural-world/animal-behaviour/frogs-and-slugs-prove-wild-animals-like-hamster-wheels-too/</h>
+            </em>
+          </figcaption>
+        </figure>
+      </p>
+
+      <!-- Grooming Section -->
+      <h2 id="s4">Grooming</h2>
+      <p>
+        Luckily for you, you do not need to groom your hamster(s) since they can independently groom themselves daily (PetSmart, n.d.). You'll only need to help your hamster(s) if they're getting a bit too old to groom themselves, they're currently ill, and/or their matted fur is getting out of hand.
+        That being said, please wash your hands with soap and warm water at all times when coming into contact with your hamster, their habitat, and/or their food in case of bacteria or diseases.
+      </p>
+
+      <!-- Provides a figure: a Grooming image and caption reference (no side links needed) -->
+      <figure>
+        <img src="Broccoli.png" width="615" height="420" alt="Messy Haired Hamster Eating Broccoli">
+        <figcaption style="margin-right: 50%; margin-bottom: 5vh;">
+          <em>
+            <h>hobbit_master02. (2015, December 28). My bad hair day hamster. https://9gag.com/gag/aGxVvKZ</h>
+          </em>
+        </figcaption>
+      </figure>
+
+      <!-- Housing Section -->
+      <h2 id="s5">Housing</h2>
+      <p style="margin-bottom: 5vh;">
+        Hamsters need dark, big, dry, clean, and quiet homes where they'll be able to explore and do their daily activities without feeling any stress from outside factors (RSPCA, n.d.).
+        <br>Focusing on the cage itself, it's common for hamsters to have a home with barred walls and solid flooring. Their cage needs to be secure and sturdy so that any other pets, visitors, or roommates can't accidentally harm them.
+        Their home also needs to be large enough so that they won't develop "Cage Rage". A condition that is caused by stress overload, which can develop into behavioral issues like biting (which can damage their teeth) or excessive urination (PETA, 2021).
+        It's required that hamsters on the larger side have 800+ square inches of space while hamsters on the smaller side should have 640+. Take note that pet stores usually don't meet these requirements so it's recommended to build your own custom hamster enclosure (PETA, 2021).
+        Also, make sure that the spacing between the bars of the cage aren't too big, or else your hamster(s) can squeeze through the gaps to escape!
+
+        <!-- Provides a figure: a Housing image, caption reference, and side links to items that the user can buy for this section -->
+        <figure>
+          <img src="CageRage.jpg" width="615" height="420" alt="Aggressive Hamster Biting Cage Bars">
+          <div style="display: inline-block; vertical-align: top; margin-left: 2%;">
+            <p style=" margin-top: 13%;">
+              <br>Some top housing brands that we'll recommend for your hamster(s) are:
+              <li style="margin-top: -0.5%; margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.amazon.ca/Lixit-Animal-Care-Hamster-Heaven/dp/B003QRPAR2">Savic Hamster Heaven Metro Cage</a> ($221.52)</li>
+              <li style="margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.amazon.ca/Ferplast-CAGE-FAVOLA-Hamster-81-Inch/dp/B0133LNVAS/ref=pd_lpo_1?pd_rd_i=B0133LNVAS&psc=1">Ferplast, CAGE FAVOLA, Hamster Cage</a> ($112.99)</li>
+              <li style="margin-bottom: 3%;"><a style="background-color: #50352B; border-radius: 5px; padding: 5px;" href="https://www.amazon.ca/Prevue-Pet-Products-528-Universal/dp/B074FH47MQ/ref=sr_1_34?ascsubtag=petsradar-ca-5734856658160616000-20&geniuslink=true&keywords=hamster+cage&qid=1659516917&sr=8-34">Prevue Pet Products Dark Gray Small Animal Home</a> ($283.99)</li>
+              <p>* You can even use a huge aquarium with a fitted mesh lid as a home for your hamster!</p>
+            </p>
+          </div>
+          <figcaption style="margin-right: 50%; margin-bottom: 5vh;">
+            <em>
+              <h>Kruzer, A. (2022, March 8). What to Do if Your Hamster is Biting Its Cage. https://www.thesprucepets.com/why-is-my-hamster-biting-the-cage-5095735</h>
+            </em>
+          </figcaption>
+        </figure>
+      </p>
+
+      <!-- References for information or images I've taken -->
+      <h2 id="s6">References</h2>
+      <p style="margin-bottom: 5vh;">
+        Griffiths, S. (2022, May 9). Best hamster toys: Keep your pocket-sized pal happy. PetsRadar; PetsRadar. <br>Retrieved August 2, 2022, from https://www.petsradar.com/buying-guides/best-hamster-toys
+        <br><br>PDSA. (n.d.). The ideal diet for your hamster. PDSA. <br>Retrieved August 2, 2022, from https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/small-pets/your-hamsters-diet#:~:text=Hamster%20are%20’omnivores’%20%E2%80%93%20this,love%20to%20hoard%20their%20food.
+        <br><br>PETA. (2021, October 20). What You Need to Know Before Considering a “Pet” Hamster. PETA.<br>Retrieved August 2, 2022, from https://www.peta.org/living/animal-companions/pet-hamster-facts/
+        <br><br>PetSmart. (n.d.). How To Take Care of a Hamster: Hamster Care Guide. PetSmart. <br>Retrieved August 2, 2022, from https://www.petsmart.com/learning-center/small-pet-care/hamster-care-guide/A0092.html
+        <br><br>RSPCA. (n.d.). Creating a Good Home for Hamsters. The Largest Animal Welfare Charity in the UK | RSPCA. <br>Retrieved August 2, 2022, from https://www.rspca.org.uk/adviceandwelfare/pets/rodents/hamsters/environment
+      </p>
+
+      <!-- Shows the user when the page was last updated -->
+      <p class="update" style="margin-top: 1%;">Page last updated on August 3, 2022</p>
+
+      <!-- Footer Information: contains contact info, navigation links, licensing/partnerships -->
+      <!-- I divide them into sections using <div> and put them beside eachother -->
+      <div class="footer" >
+        <div style="margin-top: 1%; margin-left: 2%;">
+          <a href="home.html"><img style="margin-left:25%;" src="Logo2.png" width="200" height="200" alt="Hampster Rescue's Logo"></a>
+        </div>
+        <div style="margin-top: -1%; margin-left: 10%; color: white; font-size: 20px;">
+          <br><br><b>Take Action</b>
+          <hr color="white" width= "100px" style="margin-left: 0%;">
+          <br><a href="404.html">Adopt</a>
+          <br><br><a href="404.html">Volunteer</a>
+          <br><br><a href="404.html">Donate</a>
+        </div>
+        <div style="margin-top: -1%; margin-left: 10%; color: white; font-size: 20px;">
+          <br><br><b>Resources</b>
+          <hr color="white" width= "100px" style="margin-left: 0%;">
+          <br><a href="one.html">Pet Shop</a>
+          <br><br><a href="404.html">News & Events</a>
+          <br><br><a href="two.html">FAQ</a>
+        </div>
+        <div style="margin-top: 0.1%; margin-left: 10%; color: white; font-size: 20px;">
+          <br><b>Contact Information</b>
+          <hr color="white" width="100px" style="margin-left: 0%;">
+          <br><b>Email:</b> <a href="mailto:jnguye27@uoguelph.ca">jnguye27@uoguelph.ca</a>
+          <br><br><b>Phone Number:</b> (519) - 824 - 4120
+          <br><br><b>Address:</b> 50 Stone Rd E, Guelph, ON N1G 2W1
+        </div>
+        <div style="margin-top: -1.3%; margin-left: 10%; color: white; font-size: 20px;">
+          <br><br><b>Other</b>
+          <hr color="white" width= "100px" style="margin-left: 0%;">
+          <br><a href="404.html">Partnerships</a>
+          <br><br><a href="404.html">Terms of Use</a>
+          <br><br><a href="404.html">Privacy Policy</a>
+        </div>
+      </div>
+
+      <p style="text-align: center;">2022 Copyright: HampterRescue.com</p>
+
+      <!-- A line that seperates information/images -->
+      <hr color="#50352B" width="50%" style="margin-bottom: 1%; margin-top: 1%;">
+
+      <!-- Allows the user to go to the top of the page -->
+      <div style="text-align:center;">
+        <a class="back" href="#title">Go Back to the Top</a>
+      </div>
+    </body>
+  </html>
